@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'tech_ansena' do
+target 'reacttemplate' do
   config = use_native_modules!
 
   use_react_native!(
@@ -14,7 +14,7 @@ target 'tech_ansena' do
 
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
-  target 'tech_ansenaTests' do
+  target 'reacttemplateTests' do
     inherit! :complete
     # Pods for testing
   end

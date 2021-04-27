@@ -9,6 +9,8 @@ import {
 import Button from '../../../component/Button/Index';
 import TextInput from '../../../component/TextInput/Index';
 import Logo from '../../../assets/react.svg';
+import Constants from '../../../../utils/constant';
+
 const Login = ({navigation}) => {
   return (
     <TouchableWithoutFeedback
@@ -19,7 +21,7 @@ const Login = ({navigation}) => {
         <View style={{margin: 20}}>
           <Logo height={250} />
         </View>
-        <Text style={styles.judul}>Welcome</Text>
+        <Text style={styles.judul}>{Constants.Login_Title}</Text>
         <TextInput
           placeholder="   Email"
           // value={Loginreducer.email}
@@ -33,7 +35,7 @@ const Login = ({navigation}) => {
         />
         <Button
           handleClick={() => navigation.navigate('Home')}
-          text={'Login'}
+          text={Constants.Login}
         />
       </View>
     </TouchableWithoutFeedback>

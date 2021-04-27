@@ -2,9 +2,9 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-import HomeScreen from './App/ui/screen/HomeScreen/Components/Index';
+import HomeScreen from '../src/App/ui/screen/HomeScreen/Components/Home';
 import LoginScreen from '../src/App/ui/screen/LoginScreen/Index';
-import ProfileScreen from './App/ui/screen/ProfileScreen/Components/Profile';
+import ProfileScreen from '../src/App/ui/screen/ProfileScreen/Components/Profile';
 
 import HomeIcon from '../src/App/ui/assets/Home_Tab.svg';
 import ProfileIcon from '../src/App/ui/assets/Profile_Tab.svg';
