@@ -6,10 +6,10 @@ import {
   Keyboard,
   TouchableWithoutFeedback,
 } from 'react-native';
-import Button from '../../../component/Button/Index';
-import TextInput from '../../../component/TextInput/Index';
-import Logo from '../../../assets/react.svg';
-import Constants from '../../../../utils/constant';
+import Button from '@app/ui/component/Button/Index';
+import TextInput from '@app/ui/component/TextInput/Index';
+import Logo from '@app/ui/assets/react.svg';
+import Constants from '@app/utils/constant';
 
 const Login = ({navigation}) => {
   return (

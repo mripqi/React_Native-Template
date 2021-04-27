@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, useColorScheme, StyleSheet} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import Section from '../../../component/Section/Index';
-import Constants from '../../../../utils/constant';
+import Section from '@app/ui/component/Section/Index';
+import Constants from '@app/utils/constant';
 
 const Home = () => {
   const isDarkMode = useColorScheme() === 'dark';

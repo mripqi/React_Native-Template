@@ -1,8 +1,8 @@
 import React from 'react';
 import {SafeAreaView, useColorScheme} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import FocusStatusBar from '../../component/StatusBar/Index';
-import Home from './Components/Index';
+import FocusStatusBar from '@app/ui/component/StatusBar/Index';
+import Home from './Components/Home';
 
 const Index = () => {
   const isDarkMode = useColorScheme() === 'dark';

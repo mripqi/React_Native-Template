@@ -2,7 +2,7 @@ import React from 'react';
 import {SafeAreaView, useColorScheme} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import FocusStatusBar from '../../component/StatusBar/Index';
+import FocusStatusBar from '@app/ui/component/StatusBar/Index';
 import Login from './Components/Login';
 
 const Index = ({navigation}) => {

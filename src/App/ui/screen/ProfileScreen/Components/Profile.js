@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import ProfileIcon from '../../../assets/Profile_Tab.svg';
+import ProfileIcon from '@app/ui/assets/Profile_Tab.svg';
 
 const Profile = () => {
   return (
