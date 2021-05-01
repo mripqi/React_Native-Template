@@ -7,5 +7,6 @@ use this command to remove the origin:
 - git remote remove origin
 
 use this command to rename your app:
-- react-native-rename "New Name"
+- npm install react-native-rename -g
+- react-native-rename "MyApp" -b com.mycompany.myapp
 - react-native run-android -- --reset-cache
